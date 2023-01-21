@@ -6,8 +6,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Alphabet Institute - Corporate Category Bootstrap Responsive Web Template - Home : W3Layouts</title>
+    <!-- Bootstrap 5 -->
+
+<link rel="stylesheet" href="/path/to/cdn/bootstrap.min.css" />
+
+<script src="/path/to/cdn/bootstrap.min.js"></script>
+
+<!-- jQuery Library -->
+
+<script src="/path/to/cdn/jquery.min.js"></script>
+
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link rel="stylesheet" href="/assets/css/lightbox.css">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
@@ -372,42 +383,34 @@
             <div class="title-heading-w3 text-center mx-auto mb-md-5 mb-4" style="max-width:500px;">
                 <h3 class="title-style">Gallery</h3>
             </div>
-            <div class="row">
-                <div class="col-md-4 col-6 gallery_height">
-                    <a href="https://w3layouts.com/template/grocery-mart-a-multi-vendor-ecommerce-website-template/"
-                        target="_blank">
-                        <img src="assets/images/g1.jpg" alt="" class="img-fluid ">
-                    </a>
-                </div>
-                <div class="col-md-4 col-6 gallery_height">
-                    <a href="https://w3layouts.com/template/beidea-a-corporate-business-category-website-template/"
-                        target="_blank">
-                        <img src="assets/images/g2.jpg" alt="" class="img-fluid radius-image">
-                    </a>
-                </div>
-                <div class="col-md-4 col-6 mt-md-0 mt-4 gallery_height">
-                    <a href="https://w3layouts.com/template/biodata-a-personal-portfolio-website-templates/"
-                        target="_blank">
-                        <img src="assets/images/g3.jpg" alt="" class="img-fluid radius-image">
-                    </a>
-                </div>
-                <div class="col-md-4 col-6 mt-4 gallery_height">
-                    <a href="https://w3layouts.com/template/call-center-a-corporate-business-website-template/"
-                        target="_blank">
-                        <img src="assets/images/g4.jpg" alt="" class="img-fluid radius-image">
-                    </a>
-                </div>
-                <div class="col-md-4 col-6 mt-4 gallery_height">
-                    <a href="https://w3layouts.com/template/industries-website-template/" target="_blank">
-                        <img src="assets/images/g5.jpg" alt="" class="img-fluid radius-image">
-                    </a>
-                </div>
-                <div class="col-md-4 col-6 mt-4 gallery_height">
-                    <a href="https://w3layouts.com/template/studious-website-template/" target="_blank">
-                        <img src="assets/images/g6.jpg" alt="" class="img-fluid radius-image">
-                    </a>
-                </div>
-            </div>
+            <div class="gallery">
+                <figure>
+                  <img src="/assets/images/g1.jpg" alt="" />
+                  <figcaption>Image Description 1</figcaption>
+                </figure>
+                <figure>
+                  <img src="/assets/images/g1.jpg" alt="" />
+                  <figcaption>Image Description 1</figcaption>
+                </figure>
+                <figure>
+                  <img src="/assets/images/g1.jpg" alt="" />
+                  <figcaption>Image Description 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="/assets/images/g1.jpg" alt="" />
+                    <figcaption>Image Description 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="/assets/images/g1.jpg" alt="" />
+                    <figcaption>Image Description 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="/assets/images/g1.jpg" alt="" />
+                    <figcaption>Image Description 1</figcaption>
+                </figure>
+             
+              </div>
+            <a href="https://www.jqueryscript.net/tags.php?/popup/">popup</a>
         </div>
     </section>
     <!-- //projects block -->
@@ -802,6 +805,44 @@
         });
     </script>
     <!-- //disable body scroll which navbar is in active -->
+
+
+    <script>
+        popup = {
+  init: function(){
+    $('figure').click(function(){
+      popup.open($(this));
+    });
+    
+    $(document).on('click', '.popup img', function(){
+      return false;
+    }).on('click', '.popup', function(){
+      popup.close();
+    })
+  },
+  open: function($figure) {
+    $('.gallery').addClass('pop');
+    $popup = $('<div class="popup" />').appendTo($('body'));
+    $fig = $figure.clone().appendTo($('.popup'));
+    $bg = $('<div class="bg" />').appendTo($('.popup'));
+    $close = $('<div class="close"><svg><use xlink:href="#close"></use></svg></div>').appendTo($fig);
+    $shadow = $('<div class="shadow" />').appendTo($fig);
+    src = $('img', $fig).attr('src');
+    $shadow.css({backgroundImage: 'url(' + src + ')'});
+    $bg.css({backgroundImage: 'url(' + src + ')'});
+    setTimeout(function(){
+      $('.popup').addClass('pop');
+    }, 10);
+  },
+  close: function(){
+    $('.gallery, .popup').removeClass('pop');
+    setTimeout(function(){
+      $('.popup').remove()
+    }, 100);
+  }
+}
+popup.init()
+    </script>
 
     <!-- bootstrap -->
     <script src="assets/js/bootstrap.min.js"></script>
