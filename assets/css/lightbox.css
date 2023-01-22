@@ -61,13 +61,13 @@
   }
   
   .popup.pop figure {
-    margin-top: 0;
+  
     opacity: 1;
   }
   
   .popup figure {
     position: absolute;
-    top: 50%;
+    top: 100%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
