@@ -19413,7 +19413,6 @@ span.video-play-icon:hover {
 
 .home-about-w3l .grids-1:hover,
 .home-about-w3l .grids-1.active {
-  background: var(--primary-color);
   transform: scale(1);
   transition: .5s;
 }
