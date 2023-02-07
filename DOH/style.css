@@ -28,15 +28,36 @@ p{
 .container h1{
     margin:65px 0;
 }
+.btn-style{
+    background: #2a2a2a !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+
+.btn-style:hover{
+    background: #FFCE28 !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+}
 .formInput{
     position: relative;
 }
 
+.formInput i{
+    width: 20px;
+    position: absolute;
+    right: 15px;
+    top: 45px;
+}
+.labelStyle{
+    font-weight: bold;
+    font-size: 14px;
+}
 .formInput input{
     border: 1px solid #D9D9D9;
     border-radius: 5px;
     padding:13px 10px;
 }
-.formInput
+
 }
   
