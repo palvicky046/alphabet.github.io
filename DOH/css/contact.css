@@ -17,4 +17,12 @@ width:100%;
 }
 .vector-img{
     padding: 20px 0px;
+    
+}
+.vector-img img{
+width: 25px;
+    
+}
+.pd-l{
+padding-left: 10px;
 }
