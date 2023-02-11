@@ -25,6 +25,9 @@ h4 {
   font-size: 21px !important;
 }
 
+.table-head-size{
+    font-size: 18px;
+}
 .themeColor {
   color: #ffce28;
 }
@@ -145,13 +148,20 @@ h4 {
   color: #fff;
 }
 
-.rateDetails p {
+.nav li button{
   font-size: 14px !important;
   border-radius: 4px !important;
   font-weight: 600;
 }
-.rateDetails-active {
-  background: #ffce31;
+.nav-pills .nav-link{
+    color: #000 !important;
+    border: 1px solid #000 !important;  
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background: #ffce31 !important;
+    color: #000 !important;
+    border: 1px solid #000 !important;
 }
 
 @media only screen and (min-width: 768px) {
