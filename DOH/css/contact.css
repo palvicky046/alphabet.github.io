@@ -1,12 +1,28 @@
 .main{
     margin: 0 auto;
     width:400px;
+    padding: 20px;
 }
 h4{
 font-size: 24px;
-font-weight: 600;
+font-weight: 800;
+padding: 20px 0px;
 }
 h5{
 font-size: 18px;
 font-weight: 600;
+}
+.map-img img {
+width:100%;
+}
+.vector-img{
+    padding: 20px 0px;
+    
+}
+.vector-img img{
+width: 25px;
+    
+}
+.pd-l{
+padding-left: 10px;
 }
