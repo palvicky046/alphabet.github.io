@@ -67,7 +67,9 @@ h4 {
   font-weight: bold;
   font-size: 14px;
 }
-.formInput input {
+.formInput input,
+.formInput select,
+.formInput textarea {
   border: 1px solid #d9d9d9;
   border-radius: 5px;
   padding: 13px 10px;
@@ -162,6 +164,19 @@ h4 {
     background: #ffce31 !important;
     color: #000 !important;
     border: 1px solid #000 !important;
+}
+
+
+/* new address css */
+
+.form-floating>.form-select{
+  padding-top: 0px !important;
+}
+.custom-caret{
+  appearance: none;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none;  /* Safari and Chrome */
+  padding-right: 15px;
 }
 
 @media only screen and (min-width: 768px) {
