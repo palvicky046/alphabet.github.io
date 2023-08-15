@@ -128,7 +128,7 @@
             <div class="row align-items-center">
                 <div class="col-xl-12 col-lg-8 mt-lg-0 mt-5">
                     <div class="row">
-                        
+
                         <div class="col-lg-3 col-sm-6 mb-sm-4">
                             <div class="grids-1">
                                 <div class="icon-style">
@@ -415,7 +415,7 @@
                 </figure>
              
               </div>
-            <a href="https://www.jqueryscript.net/tags.php?/popup/">popup</a>
+           
         </div>
     </section>
     <!-- //projects block -->
@@ -728,7 +728,7 @@
     <!-- //testimonial script -->
 
     <!-- magnific popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    
     <script>
         $(document).ready(function () {
             $('.popup-with-zoom-anim').magnificPopup({
@@ -810,42 +810,6 @@
     <!-- //disable body scroll which navbar is in active -->
 
 
-    <script>
-        popup = {
-  init: function(){
-    $('figure').click(function(){
-      popup.open($(this));
-    });
-    
-    $(document).on('click', '.popup img', function(){
-      return false;
-    }).on('click', '.popup', function(){
-      popup.close();
-    })
-  },
-  open: function($figure) {
-    $('.gallery').addClass('pop');
-    $popup = $('<div class="popup" />').appendTo($('body'));
-    $fig = $figure.clone().appendTo($('.popup'));
-    $bg = $('<div class="bg" />').appendTo($('.popup'));
-    $close = $('<div class="close"><svg><use xlink:href="#close"></use></svg></div>').appendTo($fig);
-    $shadow = $('<div class="shadow" />').appendTo($fig);
-    src = $('img', $fig).attr('src');
-    $shadow.css({backgroundImage: 'url(' + src + ')'});
-    $bg.css({backgroundImage: 'url(' + src + ')'});
-    setTimeout(function(){
-      $('.popup').addClass('pop');
-    }, 10);
-  },
-  close: function(){
-    $('.gallery, .popup').removeClass('pop');
-    setTimeout(function(){
-      $('.popup').remove()
-    }, 100);
-  }
-}
-popup.init()
-    </script>
 
     <!-- bootstrap -->
     <script src="assets/js/bootstrap.min.js"></script>
