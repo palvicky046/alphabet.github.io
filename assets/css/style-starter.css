@@ -19163,6 +19163,20 @@ h3.title-style {
   font-weight: bold;
 }
 
+h3.title-style .AI_Initials{
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+h3.title-style #A-Initial{
+  color: #0abf53;
+}
+
+h3.title-style #I-Initial{
+  color: #ff4f81;
+}
+
 h3.title-style span {
   font-weight: 300;
 }
