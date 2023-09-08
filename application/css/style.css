@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bg-color  {
+    background: blue !important;
+    color: #fff;
+}
+
+.bg-color .navbar-brand {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
