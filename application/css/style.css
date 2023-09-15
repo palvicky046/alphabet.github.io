@@ -3,15 +3,14 @@
     margin: 0;
 }
 
-.bg-color  {
-    background: blue !important;
+
+.nav-link, 
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.show,
+.nav-link.disabled {
     color: #fff;
 }
 
-.bg-color .navbar-brand {
-    color: #fff;
-}
-
-.nav-link {
-    color: #fff;
+.navbar-brand {
+    color: red;
 }
