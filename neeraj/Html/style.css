@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 40%;
+    margin: auto;
+    padding: 1% 5%;
+    background: black;
+}
+form label {
+    width: 100%;
+    font-size: 20px;
+    display: block;
+    padding-top: 20px;
+    color: white;
+}
+form input {
+    width: 100%;
+    padding: 7px;
+}
+
+form input.radio {
+    display: inline;
+    width: auto;
+}
+form input[type="checkbox"] {
+    display: inline;
+    width: auto;
+}
+
+form input[type="checkbox"] + label {
+    display: inline;
+    width: auto;
+    padding-right: 20px;
+}
+form input[type="submit"] {
+    margin: 10px 0;
+    background: green;
+    color: white;
+    border: 2px solid green;
+}
