@@ -6,13 +6,14 @@
 
 form {
     width: 40%;
-    margin: auto;
+    margin:  auto;
     padding: 1% 5%;
     text-size-adjust: 20;
     background: rgb(243, 135, 135);
     color: black;
     font-family:'Times New Roman' ;
 }
+
 form label {
     width: 100%;
     font-size: 20px;
@@ -22,7 +23,18 @@ form label {
 }
 form input,textarea,select{
     width: 100%;
-    padding: 2px;
+    padding: 4px;
+}
+form input:focus, form input:focus-visible{
+    border: 2px solid blueviolet;
+    outline: none;
+}
+form input:hover{
+    border: 2px solid green;
+    outline: none;
+}
+input[type="submit"]:hover{
+    background: grey;
 }
 form input.radio {
     display: inline;
