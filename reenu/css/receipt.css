@@ -1,0 +1,42 @@
+* {
+    padding:0;
+    margin:auto;
+    box-sizing: border-box;
+}
+form h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif; 
+}
+form {
+    width: 40%;
+    margin:  auto;
+    padding: 1% 5%;
+    text-size-adjust:30;
+    background: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+form label {
+    width: 100%;
+    font-size: 20px;
+    display: block;
+    padding-top: 20px;
+    color: white;
+}
+form input, 
+form select{
+width:100%;
+padding:5px;
+}
+input[type="submit"]:hover{
+    background: grey;
+}
+form input[type="submit"] {
+    
+    margin: 30px 10px;
+    background: black;
+    color: white;
+    border: 2px solid rgb(85, 80, 80);
+    width: 30%;
+}
