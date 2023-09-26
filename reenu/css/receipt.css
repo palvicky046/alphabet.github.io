@@ -33,10 +33,10 @@ input[type="submit"]:hover{
     background: grey;
 }
 form input[type="submit"] {
-    
     margin: 30px 10px;
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     border: 2px solid rgb(85, 80, 80);
     width: 30%;
+    align-content: center;
 }
