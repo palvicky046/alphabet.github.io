@@ -4,53 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"   integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> 
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <link href="demo.css" rel="stylesheet">
     <title>Admission Form</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <form id="form">
-            <h3 style="color: black; text-align: center;">ADMISSION FORM</h3>
-        <div>
+            <h3>ADMISSION FORM</h3>
+        <div class="width30">
             <label>First Name :</label>
             <input type="text" placeholder="Riya" />
         </div>
-        <div>
+        <div class="width30">
             <label>Middle Name :</label>
-            <input type="text" placeholder="Abcd" />
+            <input type="text" id="test" placeholder="Abcd" />
         </div>
-        <div>
+        <div class="width30">
             <label>Last Name :</label>
             <input type="text" placeholder="abcd" />
         </div>
-        <div>
+        <div class="width100">
             <label for="addr" >Address:</label>
-             <textarea id="addr" name="addr" ></textarea>
+             <textarea id="addr" name="addr" rows="5" cols="40"></textarea>
         </div>
-        <div>
+        <div class="width50">
             <label>Phone :</label>
             <input type="tel" placeholder="1234578901" />
         </div>
-        <div>
+        <div class="width50">
             <label>Email :</label>
             <input type="Email" placeholder="abc@gmail.com" />
         </div>
-        <div>
+        <div class="radio-gen width50">
             <label>Gender :</label>
-            <input type="radio" class="radio" name="gen" /> Male
-            <input type="radio" class="radio" name="gen" />Female
+            <input type="radio" class="radio" name="gen" /> <span>Male</span>
+            <input type="radio" class="radio" name="gen" /><span>Female</span>
         </div>
-        <div>
+        <div class="width50"> 
             <label>Class :</label>
-            <input type="text" placeholder="1" />
+            <input type="number" max="15" min="1" placeholder="1" />
         </div>
-        <div>
+        <div class="width50">
             <label>Admission Date:</label>
             <input type="date"  />
         </div>
-        <div>
+        <div class="width50">
             <label>Medium :</label>
             <select >
                 <option label="Select Medium..." value="med"></option>
@@ -60,7 +61,7 @@
                 <option  value="Other">Other...</option>
                 </select>
         </div>
-        <div>
+        <div class="width50">
             <label>Student Image :</label>
             <input type="file" name="fileupload" />
         </div>
