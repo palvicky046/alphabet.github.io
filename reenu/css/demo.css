@@ -31,13 +31,14 @@ h3 {
     padding: 0 15px;
 }
 form {
-    width: 60%;
-    margin: auto;
+    width: 40%;
+    margin:  auto;
     padding: 1% 5%;
     text-size-adjust: 20;
     background: rgb(243, 135, 135);
     color: black;
 }
+
 form label {
     width: 100%;
     font-size: 18px;
@@ -51,9 +52,18 @@ form input,
 form textarea,
 form select {
     width: 100%;
-    padding: 7px 10px;
-    border-radius: 10px;
-    border: 2px solid #000;
+    padding: 4px;
+}
+form input:focus, form input:focus-visible{
+    border: 2px solid blueviolet;
+    outline: none;
+}
+form input:hover{
+    border: 2px solid green;
+    outline: none;
+}
+input[type="submit"]:hover{
+    background: grey;
 }
 form textarea {
     max-height: 140px;
@@ -87,5 +97,3 @@ form input[type="reset"] {
     border: 2px solid black;
     width: 30%;
 }
-
-
