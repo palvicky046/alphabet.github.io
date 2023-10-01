@@ -3,14 +3,33 @@
     margin: 0;
 }
 
-
-.nav-link, 
-.navbar-nav .nav-link.active, 
-.navbar-nav .nav-link.show,
-.nav-link.disabled {
-    color: #fff;
+body {
+    font-family: 'Inter', sans-serif;
 }
 
-.navbar-brand {
-    color: red;
+.common-padding {
+    padding: 0 50px;
 }
+
+.logo img {
+    width: 150px;
+}
+
+.navbar-div {
+    background-color: #F5F7FA;
+    padding: 36px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 20px
+}
+@media only screen and (max-width: 600px) {
+    .common-padding {
+        padding: 0 15px;
+    }
+  }
