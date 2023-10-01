@@ -4,6 +4,32 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 100px 0;
+    background: url('IMAGES/addmition-bg.jpg') no-repeat;
+    background-size: 100%;
+}
+h3 {
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+.width30 {
+    width: 32%;
+    display: inline-block;
+    padding: 0 15px;
+}
+.width50 {
+    width: 49%;
+    display: inline-block;
+    padding: 0 15px;
+}
+.width100 {
+    width: 100%;
+    display: inline-block;
+    padding: 0 15px;
+}
 form {
     width: 40%;
     margin:  auto;
@@ -11,17 +37,20 @@ form {
     text-size-adjust: 20;
     background: rgb(243, 135, 135);
     color: black;
-    font-family:'Times New Roman' ;
 }
 
 form label {
     width: 100%;
-    font-size: 20px;
+    font-size: 18px;
     display: block;
     padding-top: 20px;
     color: black;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
 }
-form input,textarea,select{
+form input,
+form textarea,
+form select {
     width: 100%;
     padding: 4px;
 }
@@ -36,13 +65,19 @@ form input:hover{
 input[type="submit"]:hover{
     background: grey;
 }
+form textarea {
+    max-height: 140px;
+}
+
 form input.radio {
     display: inline;
     width: auto;
     vertical-align: middle;
-    margin: 0 0 0 30px ;
 }
-
+form .radio-gen span {
+    padding-right: 20px;
+    font-weight: bold;
+}
 form input[type="file"] {
     width: 50%;
     padding: 2px;
