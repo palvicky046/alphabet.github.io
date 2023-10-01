@@ -12,3 +12,13 @@ color: white;
     flex: 0 0 auto;
     width: 30%;} 
 
+    .myhedd {
+        text-align: center;
+    }
+.main {
+    color: rgb(218, 122, 13);
+ }   
+ .card-text {
+     font-size: 50;
+ }
+ .card-title
