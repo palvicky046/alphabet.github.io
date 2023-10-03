@@ -1,0 +1,46 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+.carousel-caption d-none d-md-block h5{
+color: white;
+}
+.h3 class="main"{
+    color: antiquewhite;
+}
+.col-6 {
+    flex: 0 0 auto;
+    width: 30%;} 
+
+    .myhedd {
+        text-align: center;
+    }
+.main {
+    color: #000;
+    font-size: 30px;
+ }   
+ .card-text {
+     font-size: 50;
+ }
+ #slider .carousel-item img {
+    height: 500px;
+}
+
+.caption-slider h3 {
+    color: blueviolet;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.caption-slider p {
+    color: #000;
+    font-size: 28px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: red;
+}
+
+.carousel-indicators .active {
+    background-color: red !important;
+}
