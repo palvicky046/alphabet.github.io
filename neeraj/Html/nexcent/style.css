@@ -17,6 +17,10 @@
     }
     .logo {
         width: auto !important;}
-    .display-flex {
-        gap: 510px ;
+   
+    .card-img-top
+    {
+        width: 50px;
+        margin: auto;
+
     }
