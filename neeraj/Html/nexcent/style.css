@@ -1,0 +1,26 @@
+* { 
+    margin: 0;
+    padding: 0; }
+    .common_pading {
+    padding: 0px 50px;
+    }
+    .collapse-navbar-collapse {
+        text-align: left;
+    }
+    .carousel
+    {
+         height: 400px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link 
+    {padding-left: 5rem;
+        padding-right: 0.5rem;
+    }
+    .logo {
+        width: auto !important;}
+   
+    .card-img-top
+    {
+        width: 50px;
+        margin: auto;
+
+    }
