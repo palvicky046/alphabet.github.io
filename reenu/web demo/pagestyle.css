@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Inter', sans-serif, 'poppins', 'Roboto';
+    overflow-x: hidden;
 }
 
 .common-padding {
@@ -13,13 +14,17 @@ body {
 }
 
 .navbar-div {
-    padding: 30px;
+    padding:15px 30px;
     background-color: #F5F7FA;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom:2px solid #eee;
+    box-shadow: ;
 }
-
+.main{
+    padding:15px 30px;
+}
 .main ul {
     list-style: none;
     display: flex;
@@ -28,18 +33,37 @@ body {
     color: black;
 }
 
-.button-style button {
-    border-radius: 5px;
+a{
+    color: #000000;
+    text-decoration:none;
+}
+.button-style{
+    display: flex;
+    gap: 20px;
+}
+.login-botton button{
+    border: none;
+    background-color:#F5F7FA;
+    color: #4CAF4F;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+.button-signup button {
+    border-radius: 4px;
     background-color: #4CAF4F;
     color: white;
-    padding: 15px 15px;
-    font-size: 15px;
-    gap: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
 }
 
-.slider {
-    text-align: center;
+.slider ul{
+    justify-content: center;
+    list-style-type: disc;
+    display: flex;
+    gap: 20px;
     padding: 20px;
+    font-size: 25px;
 }
 /*.carousel-indicators ul{
     align-items: center;
@@ -51,8 +75,7 @@ body {
 */
 .contain-design {
     background-color: #F5F7FA;
-    padding: 50px 50px;
-    display: flex;
+    padding: 20px 50px 10px 50px;
 }
 
 .contain-design h2 {
@@ -69,13 +92,26 @@ body {
     color: #717171;
     font-size: 16px;
 }
+.contain-design pimg{
+    width:300px;
+    height: 300px;
+}
+
+.customer-data{
+    display: flex;
+    gap: 50px;
+}
+.custom-img img{
+    gap: 2;
+}
 
 .register-style button {
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: #4CAF4F;
     color: white;
-    padding: 15px 30px;
+    padding: 10px 15px;
     font-size: 16px;
+    border: none;
 }
 slider {
     text-align: center;
@@ -97,33 +133,33 @@ slider {
     text-align: center;
     color: #18191F;
 }
+.img-txt-design {
+    padding: 30px 50px;
+}
+.img-txt-design img{
+    display: block;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-txt-design h2 {
+    color: #4D4D4D;
+    font-weight: bold;
+    text-align: center;
+}
+.img-txt-design p{
+    color: #717171;
+    font-size: 16px;
+    text-align: center;
+}
+
 .logo3 img{
     display:inline-block;
     padding: 50px 50px;
 }
 .logo3 {
     text-align: center;
-}
-
-.card{
-    border-color: white   ;
-    box-shadow: #ABBED1;
-}
-.card-img{
-    margin: auto;
-    width: 50px;
-}
-
-.card-body h5{
-    color:#4D4D4D;
-    font-size: 14px;
-    font-weight: bold;
-    font-size: 28px;
-    }
-
-.card-body p{
-color:#000000;
-font-size: 14px;
 }
 
 .example {
@@ -161,23 +197,45 @@ font-size: 14px;
     font-size: 28px;
 }
 
-.card-group {
-    margin: auto;
-}
-
 .containt-head{
     text-align: center;
     margin: 50px;
 }
 .demo-style button{
     text-align: center;
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: #4CAF4F;
     color: white;
-    padding: 15px 15px;
-    font-size: 15px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
     gap: 10px;
 }
 .footer-style {
     background-color: #263238;
+    padding: 45px 50px;
+}
+.footer-txt{
+    margin:20px 0;
+}
+h4{
+    color: white;
+    font-size: 14px;
+}
+
+.foot-element h3{
+    color: white;
+}
+
+.foot-element ul {
+    list-style: none;
+    font-size: 14px;
+    color: white;
+}
+.email-input input{
+    margin: 20px 0;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border:none;
 }

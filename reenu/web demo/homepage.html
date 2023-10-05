@@ -35,8 +35,12 @@
                 </ul>
             </div>
             <div class="button-style">
-                <button>Login</button>
-                <button>Sign Up</button>
+                <div class="login-botton">
+                    <button>Login</button>
+                </div>
+                <div class="button-signup">
+                    <button>Sign Up</button>
+                </div>
             </div>
         </nav>
     </div>
@@ -53,7 +57,7 @@
             <img src="img/illustration.png">
         </div>
         <div class="slider">
-            <ul type="disc">
+            <ul>
                 <li></li>
                 <li></li>
                 <li></li>
@@ -79,28 +83,35 @@
         </p>
     </div>
 
-    <div class="card-group">
-        <div class="card">
-            <img src="img/groupicon.png" alt="..." class="card-img">
-            <div class="card-body">
-                <h5>Membership Organisations</h5>
-                <p>Our membership management software provides full automation of membership renewals and payments.</p>
+    <div class="row">
+    <div class="img-txt-design col-xl-4">
+            <div>
+                <img src="img/groupicon.png">
             </div>
-        </div>
-        <div class="card">
-            <img src="img/blgdicon.png" alt="..." class="card-img">
-            <div class="card-body">
-                <h5>National Associations</h5>
-                <p>Our membership management software provides full automation of membership renewals and payments</p>
+            <div>
+                <h2>Membership <br>Organisations</h2>
+                <p>Our membership management <br>software provides full automation of <br>membership renewals and payments</p>
             </div>
+    </div>
+    <div class="img-txt-design col-xl-4">
+        <div>
+            <img src="img/blgdicon.png">
         </div>
-        <div class="card">
-            <img src="img/clubicon.png" class="card-img" alt="...">
-            <div class="card-body">
-                <h5>Clubs And Groups</h5>
-                <p>Our membership management software provides full automation of membership renewals and payments</p>
-            </div>
+        <div>
+            <h2>National <br>Associations</h2>
+                <p>Our membership management <br>software provides full automation of<br> membership renewals and <br>payments</p>
         </div>
+    </div>
+    <div class="img-txt-design col-xl-4">
+        <div>
+            <img src="img/clubicon.png">
+        </div>
+        <div>
+            <h2>Clubs And <br>Groups</h2>
+                <p>Our membership management<br>software provides full automation of<br> membership renewals and payments</p>
+        </div>
+    </div>
+
     </div>
 
     <div class="example">
@@ -190,13 +201,17 @@
                 id sem dignissim finibus ac sit amet magna.</p>
             <h3>Tim Smith</h3>
             <p>British Dragon Boat Racing Association</p>
-            <div>
-                <img src="img/itemlogo1.png">
-                <img src="img/itemlogo2.png">
-                <img src="img/itemlogo3.png">
-                <img src="img/itemlogo4.png">
-                <img src="img/itemlogo5.png">
-                <h3>Meet all customers</h3>
+            <div class="customer-data">
+                <div class="custom-img">
+                    <img src="img/itemlogo1.png">
+                    <img src="img/itemlogo2.png">
+                    <img src="img/itemlogo3.png">
+                    <img src="img/itemlogo4.png">
+                    <img src="img/itemlogo5.png">
+                </div>
+                <div>
+                    <h3>Meet all customers</h3>
+                </div>
             </div>
         </div>
     </div> <div class="txt-containt">
@@ -224,9 +239,9 @@
         </div>
     </div>
 <div class="footer-style row">
-    <div class="col-xl-6">
+    <div class="col-xl-3">
         <img src="img/nexcent.png" alt="logo">
-        <div>
+        <div class="footer-txt">
             <h4>Copyright © 2020 Nexcent ltd.<br>All rights reserved</h4>
         </div>
         <div>
@@ -236,40 +251,39 @@
             <img src="img/youtube.png" alt="logo">
         </div>
     </div>
-    <div class="col-xl-2">
+    <div class="foot-element col-xl-3">
         <h3>Company</h3>
-        <div>
-            <ol>
+        <div class="foot-element">
+            <ul>
                 <li><a href="#">About us</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Coantact us</a></li>
                     <li><a href="#">Pricing</a></li>
                     <li><a href="#">Testimonial</a></li>
-            </ol>
+            </ul>
         </div>
     </div>
-    <div class="col-xl-2">
+    <div class="foot-element col-xl-3">
         <h3>Support</h3>
-        <div>
-            <ol>
+        <div class="foot-element">
+            <ul>
                 <li><a href="#">Help Center</a></li>
                     <li><a href="#">Terms of service</a></li>
                     <li><a href="#">Legal</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Status</a></li>
-            </ol>
+            </ul>
         </div>
     </div>
-    <div class="col-xl-2">
+    <div class="foot-element col-xl-3">
         <h3>Stay up to date</h3>
-        <div>
+        <div class="email-input">
             <input type="email" placeholder="Your email address">
         </div>
     </div>
 
-</div>
+    </div>
 
 
 </body>
-
 </html>
