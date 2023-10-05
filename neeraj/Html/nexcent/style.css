@@ -1,15 +1,21 @@
 * { 
     margin: 0;
-    padding: 0; }
+    padding: 0; 
+}
+body, html {
+    font-family: "Inter" sans-serif;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0px;
+}
     .common_pading {
     padding: 0px 50px;
     }
     .collapse-navbar-collapse {
         text-align: left;
     }
-    .carousel
-    {
-         height: 400px;
+    h3 {
+
     }
     .navbar-expand-lg .navbar-nav .nav-link 
     {padding-left: 5rem;
