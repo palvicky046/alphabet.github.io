@@ -82,9 +82,7 @@ slider {
 }
 .slider ul{
     display: flex;
-    gap: 10px;
     color: #4CAF4F;
-
 }
 
 .txt-containt h2{

@@ -76,3 +76,46 @@ body {
     padding: 30px 0 0 0;
     color: #4D4D4D;
 }
+.txt-contain p {
+    font-size: 18;
+    text-align: center;
+    color: #18191F;
+
+}
+.logo2 img {
+display: inline-block;
+padding: 50px;
+}
+.card {
+    border-color: #fff;
+    box-shadow: #ABBED1;
+}
+.card img {
+    width: 65px;
+    height: 56px;
+}
+.card body h5 {
+    color: #4D4D4D; 
+    font-size: 28px;
+    font-weight: bold;
+}
+.card body p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #717171;
+    ;
+}
+.image {
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+}
+.image h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+.image p {
+    color: #717171;
+    font-size: 14px;
+}
