@@ -24,3 +24,61 @@
         margin: auto;
 
     }
+    .card-header
+    {
+        border: 0cap;
+        
+    }
+
+    .btn-secondary {
+        color: #fff;
+        background-color: #45b020;
+       
+    }
+    .bar 
+    {
+        color: #717171;
+        font-size: 16px;
+        height: 200px;
+    }
+    .hedding
+    {
+         color: #45b020 ; 
+    }
+    .hedding2
+    {
+        color: #685b5b;
+    }
+    .headingd 
+    {
+        margin: 140px 0px 0px 0px ;
+    }
+    .hedding
+    {
+        text-align:center ;
+    }
+*h5 {
+    color: #45b020;
+}
+.line
+{
+    margin: 0px 150px;
+
+}
+.padding
+{
+    padding: 100px;
+}
+.card-group
+{
+    margin: 0px 10px;
+}
+.button 
+{
+    color: #45b020;
+   
+}
+
+
+
+
