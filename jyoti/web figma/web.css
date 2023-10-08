@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: none;
 }
 .main ul {
     list-style: none;
@@ -25,11 +26,17 @@ body {
 }
 .button-style button {
     border-radius: 8px;
-    background-color: #4CAF4F;
-    color: #fff;
-    padding: 10px;
+    background-color: #fff;
+    color: #4CAF4F;
+    padding: 15px;
     font-size: 18px;
     gap: 15px;
+    border: none;
+}
+.signup-button {
+    background-color: #4CAF4f !important;
+    color: #fff !important;
+    
 }
 
 .row {
@@ -118,4 +125,19 @@ padding: 50px;
 .image p {
     color: #717171;
     font-size: 14px;
+}
+.item logo {
+    display: flex;
+    padding: 10px;
+}
+.item logo img {
+    padding: 15px;
+    width: 80px;
+    height: 80px;
+}
+.txt-design h2 {
+    font-weight: 700;
+    font-size: 28px;
+    
+
 }

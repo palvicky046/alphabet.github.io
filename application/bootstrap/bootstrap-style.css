@@ -1,0 +1,29 @@
+
+.display-block {
+    height: 300px;
+    display: block;
+    width: 300px;
+    background: red;
+}
+
+.display-inline-block {
+    height: 300px;
+    display: inline-block;
+    background: green;
+}
+
+.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+    background: yellow;
+}
+.display-flex div {
+    padding: 20px;
+    width: 30%;
+}
+
+ul {
+    list-style: none;
+}
+.ulList ul li{
+}
