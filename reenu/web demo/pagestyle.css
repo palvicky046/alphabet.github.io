@@ -227,10 +227,31 @@ h4{
     color: white;
 }
 
-.foot-element ul {
+.foot-element ul{
     list-style: none;
     font-size: 14px;
     color: white;
+    padding:0;
+}
+.img-position {
+    position: relative;
+}
+.img-position h4 {
+    position: absolute;
+    font-size: 20px;
+    width: 50%;
+    background: rebeccapurple;
+    color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img-position img {
+    width: 100%;
+}
+.foot-element ul li a{
+    color: white;
+    
 }
 .email-input input{
     margin: 20px 0;
