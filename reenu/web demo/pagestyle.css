@@ -264,3 +264,25 @@ h4{
     border-radius: 4px;
     border:none;
 }
+
+
+
+
+/**
+login Page css
+**/
+
+.login-page {
+    padding: 40px;
+    display: flex;
+    
+}
+
+.login-page form {
+display: block;
+text-align: center;
+}
+
+.login-page form b, .login-page form input, .login-page form button {
+    display: block;
+}
