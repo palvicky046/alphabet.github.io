@@ -15,7 +15,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: none;
+    border-bottom: 2px solid #eee;
+}
+.main {
+    padding: 15px 30px;
 }
 .main ul {
     list-style: none;
@@ -24,6 +27,7 @@ body {
     font-size: 18px;
     color: black;
 }
+
 .button-style button {
     border-radius: 8px;
     background-color: #fff;
@@ -132,7 +136,7 @@ padding: 50px;
 }
 .item logo img {
     padding: 15px;
-    width: 80px;
+    width: 80px;    
     height: 80px;
 }
 .txt-design h2 {
@@ -196,13 +200,58 @@ Login page css
 
 
 .login page {
-    padding: 40px;
-    display: flex;
-}
+    padding: 50px 60px;
+    margin: 0;
+    
+    
+} 
 .login-page form {
-    display: block;
-    text-align: center;
+    width: 50%;
+    margin: auto;
+    
+   
+
 }
-.login-page form b, .login-page form input, .login-page form button {
-    display: block;
+.login-page .login-img img {
+    width: 100%;
+
+}
+.login-head {
+    font-size: 24px;
+    font-weight: 600;
+    color: #515151 !important;
+    margin: 20px;
+    text-align: center;
+    
+} 
+.login-page form input {
+    width: 326px;
+    height: 48px;
+   text-align: left;
+   padding: 20px;
+}
+
+.login-page form button {
+    width: 326px;
+    height: 46px; 
+    background-color: #D0D0D0;
+    color: #fff;
+    border-radius: 8px;
+   border: none;
+   font-size: 16px;
+   font-weight: 700;
+}  
+.login-page form p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #515151
+    ;
+}  
+.login-page form .google-button {
+    width: 340px;
+    height: 48px;
+    background-color: #fff !important;
+    border: 1px;
+
+
 }
