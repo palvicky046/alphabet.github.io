@@ -286,8 +286,9 @@ text-align: center;
 }
 
 .login-page form b, .login-page form input, .login-page form button {
+    display: block; 
     display: block;
-    }
+}
 /*
 .img-direction img {
 height: 24px;
@@ -312,3 +313,19 @@ width: 24px;
         padding: 50%;
         margin: auto;
     }
+
+/** login page*/
+.login-sec {
+    padding: 50px 60px;
+    margin: 0;
+}
+
+.login-sec form {
+    width: 50%;
+    margin: auto;
+}
+
+.login-sec .login-img img {
+    width: 100%;
+}
+    

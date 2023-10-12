@@ -15,7 +15,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: none;
+    border-bottom: 2px solid #eee;
+}
+.main {
+    padding: 15px 30px;
 }
 .main ul {
     list-style: none;
@@ -24,6 +27,7 @@ body {
     font-size: 18px;
     color: black;
 }
+
 .button-style button {
     border-radius: 8px;
     background-color: #fff;
@@ -132,12 +136,122 @@ padding: 50px;
 }
 .item logo img {
     padding: 15px;
-    width: 80px;
+    width: 80px;    
     height: 80px;
 }
 .txt-design h2 {
     font-weight: 700;
     font-size: 28px;
     
+
+}
+.containt-head {
+    text-align: center;
+    margin: 50px;
+}
+.demo-style button {
+    text-align: center;
+    border-radius: 4px;
+    background-color: #4CAF4F;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 12px;
+    border: none;
+
+
+    
+}
+.footer-style {
+    background-color: #263238;
+    padding: 64px 165px;
+}
+.footer-txt {
+    margin: 20px 0;
+}
+h4 {
+    color: #F5F7FA;
+    font-size: 14px;
+    font-weight: 400;
+}
+.foot-element h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.foot-element ul {
+    list-style: none;
+    font-size: 14px;
+    padding: 0;
+}
+.foot-element ul li a {
+    color: #F5F7FA;
+    padding: 0;
+    border: none;
+}
+
+
+
+
+
+/**
+Login page css
+**/
+
+
+.login page {
+    padding: 50px 60px;
+    margin: 0;
+    
+    
+} 
+.login-page form {
+    width: 50%;
+    margin: auto;
+    
+   
+
+}
+.login-page .login-img img {
+    width: 100%;
+
+}
+.login-head {
+    font-size: 24px;
+    font-weight: 600;
+    color: #515151 !important;
+    margin: 20px;
+    text-align: center;
+    
+} 
+.login-page form input {
+    width: 326px;
+    height: 48px;
+   text-align: left;
+   padding: 20px;
+}
+
+.login-page form button {
+    width: 326px;
+    height: 46px; 
+    background-color: #D0D0D0;
+    color: #fff;
+    border-radius: 8px;
+   border: none;
+   font-size: 16px;
+   font-weight: 700;
+}  
+.login-page form p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #515151
+    ;
+}  
+.login-page form .google-button {
+    width: 340px;
+    height: 48px;
+    background-color: #fff !important;
+    border: 1px;
+
 
 }

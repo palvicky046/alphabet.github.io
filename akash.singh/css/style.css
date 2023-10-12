@@ -33,3 +33,21 @@ body {
         padding: 0 15px;
     }
   }
+
+
+  /**
+  login page css
+  **/
+
+  .login-page {
+     display: 40px;
+     display: flex;
+  }
+
+  .login-page form{
+    display: block;
+  text-align: center;
+}
+.login-page b, .login-page input, .login-page form button {
+    display: block;
+}
