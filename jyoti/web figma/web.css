@@ -208,6 +208,7 @@ Login page css
 .login-page form {
     width: 50%;
     margin: auto;
+
     
    
 
@@ -229,6 +230,7 @@ Login page css
     height: 48px;
    text-align: left;
    padding: 20px;
+   margin: 6px;
 }
 
 .login-page form button {
@@ -252,6 +254,7 @@ Login page css
     height: 48px;
     background-color: #fff !important;
     border: 1px;
+    margin: 6px;
 
 
 }
