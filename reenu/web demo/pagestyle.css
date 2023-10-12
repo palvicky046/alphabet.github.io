@@ -307,3 +307,8 @@ width: 24px;
     top: 43%;
     left: 67%;
     }
+
+    .login-page form{
+        padding: 50%;
+        margin: auto;
+    }
