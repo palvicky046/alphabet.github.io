@@ -8,11 +8,16 @@ body, html {
     padding: 0;
     margin: 0px;
 }
+.navbar-nav {
+    margin: auto;
+}
+
     .common_pading {
     padding: 0px 50px;
     }
     .collapse-navbar-collapse {
         text-align: left;
+       
     }
     h3 {
 
@@ -71,10 +76,7 @@ body, html {
     margin: 0px 150px;
 
 }
-.padding
-{
-    padding: 100px;
-}
+
 .card-group
 {
     margin: 0px 10px;
@@ -159,10 +161,7 @@ ul{
 	display: block;
 	transition: all 0.3s ease;
 }
-.footer-col ul li a:hover{
-	color: #ffffff;
-	padding-left: 8px;
-}
+
 .footer-col .social-links a{
 	display: inline-block;
 	height: 40px;
@@ -175,9 +174,55 @@ ul{
 	color: #ffffff;
 	transition: all 0.5s ease;
 }
-.footer-col .social-links a:hover{
-	color: #24262b;
-	background-color: #ffffff;
+
+
+.banner
+{
+padding: 50px 60px ;
+}
+.banner img {
+    width: 100%;
 }
 
+.login-page
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+ text-align: center;
+}
+.input-button input
+{
+    padding: 8px ;
+    width: 100%;
+    border-radius: 8px;
+    border: #717171 solid 1px ;
+   
+}
 
+.login-button 
+{
+    padding: 8px ;
+    width: 100%;
+    border-radius: 8px;
+    border: #198754 solid 1px ;
+    background: #198754;
+   color: #fff;
+  
+}
+.login-page h2
+{
+    font-weight: bold;
+}
+.social-button  button
+{
+    padding: 8px ;
+    width: 100%;
+    border-radius: 8px;
+    border: #000000 solid 1px ;
+    color: #000000;
+    background-color: #fff;
+   margin: 10px;
+}
