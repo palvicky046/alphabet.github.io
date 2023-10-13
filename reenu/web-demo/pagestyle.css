@@ -286,8 +286,9 @@ text-align: center;
 }
 
 .login-page form b, .login-page form input, .login-page form button {
+    display: block; 
     display: block;
-    }
+}
 /*
 .img-direction img {
 height: 24px;
@@ -307,3 +308,61 @@ width: 24px;
     top: 43%;
     left: 67%;
     }
+
+   
+
+/** login page*/
+.login-sec {
+    padding: 50px 60px;
+    margin: 0;
+}
+
+.login-sec form {
+    width: 50%;
+    margin: auto;
+    padding: 30% 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.login-sec .login-img img {
+    width: 100%;
+}
+
+.login-sec input[type=text],[type=password]{
+    width:100%;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border: 1px solid #D0D0D0;
+}
+
+.login-sec button{
+    width:100%;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #4CAF4F;
+    color: white;
+    border: 1px solid #D0D0D0;
+    border-width: 1px;
+}
+
+.login-g-button button{
+    background-color:white;
+    width:100%;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 8px;
+    color: #000000 !important;
+    border-width: 1px;
+    box-shadow: none;
+    border: 1px solid #D0D0D0;
+}
+.txt-forget a{
+    color: #0098EA;
+}
+.form-design h2{
+     font-weight: bold;
+}
+    
