@@ -40,14 +40,47 @@ body {
   **/
 
   .login-page {
-     display: 40px;
-     display: flex;
-  }
+    display: 40px;
+    display: flex;
+ }
 
-  .login-page form{
-    display: block;
-  text-align: center;
+ .login-page form{
+   display: block;
+ text-align: center;
 }
 .login-page b, .login-page input, .login-page form button {
-    display: block;
+   display: block;
+}
+/*
+.img-direction img {
+height: 24px;
+width: 24px;
+}
+*/
+.email-input input[type="email"]{
+    background-color:#888;
+}
+
+.foot-element{
+    position: relative;
+}
+
+.foot-element img{
+    position: absolute;
+    top: 43%;
+    left: 67%;
+}
+/** login page*/
+.login-sec {
+    padding: 50px 60px;
+    margin: 0;
+}
+
+.login-sec form {
+    width: 50%;
+    margin: auto;
+}
+
+.login-sec .login-img img {
+    width: 100%;
 }
