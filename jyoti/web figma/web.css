@@ -256,16 +256,17 @@ Login page css
     color: #515151;
     margin: 30px 7px;
 }  
-.login-page form .google-button {
+ .google-button button {
     width: 340px;
     height: 48px;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: #fff !important;
     font-size: 14px;
     font-weight: 700;
-    color: #505050;
+    color: #000 !important;
+    margin: 5px !important;
     
-    margin: 6px;
+    
 
 
 }
