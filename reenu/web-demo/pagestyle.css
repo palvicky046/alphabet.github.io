@@ -366,6 +366,55 @@ width: 24px;
 .form-design h2{
      font-weight: bold;
 }
+.signup-form h4{
+    color: black;
+}
 
+.button-img img{
+    width:25px;
+    height:25px;
+}
 
+.signup-form-design form{
+    width: 50%;
+    padding: 30px;
+    margin: auto;
+}
+.signup-form input{
+    width:100%;
+}
+.signup-img img{
+    width: 658px;
+    height: 1024px;
+}
 
+.product-font{
+    background-color: #F4F5F8;
+    padding: 30px;
+    text-align: center;
+}
+.font-desgn1{
+    color: #191919;
+    font-weight: lighter;
+}
+
+.product-font{
+    position: relative;
+}
+.product-cart img{
+    position: absolute;
+    top: 23%;
+    right: 4%;
+}
+.img-product-cart {
+    background-color: #F1F1F1;
+}
+
+.Rectangle-img img{
+    position: relative;
+}
+
+.img-icon img,h3,h5{
+    position:absolute;
+    bottom: 75px;
+}
