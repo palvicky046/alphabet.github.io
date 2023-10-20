@@ -30,6 +30,7 @@ body {
     gap: 25px;
     font-size: 18px;
     color: black;
+    margin: 0px;
 }
 
 a{
@@ -331,7 +332,7 @@ width: 24px;
 .login-sec input[type=text],[type=password]{
     width:100%;
     padding: 7px;
-    margin: 10px;
+    margin:10px 0px;
     border-radius: 5px;
     border-width: 1px;
     border: 1px solid #D0D0D0;
@@ -340,7 +341,7 @@ width: 24px;
 .login-sec button{
     width:100%;
     padding: 7px;
-    margin: 10px;
+    margin:10px 0px;
     border-radius: 8px;
     background-color: #4CAF4F;
     color: white;
@@ -352,7 +353,7 @@ width: 24px;
     background-color:white;
     width:100%;
     padding: 7px;
-    margin: 10px;
+    margin: 10px 0;
     border-radius: 8px;
     color: #000000 !important;
     border-width: 1px;
