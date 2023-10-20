@@ -4,6 +4,7 @@
 }
 body {
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
 }
 .common-padding {
     padding: 0 50px;
@@ -11,7 +12,7 @@ body {
 }
 .navbar-div {
     padding: 30px;
-    background-color: #F5F7FA;
+    background-color: #e1e1e1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,6 +20,8 @@ body {
 }
 .main {
     padding: 15px 30px;
+    
+
 }
 .main ul {
     list-style: none;
@@ -26,7 +29,11 @@ body {
     gap: 25px;
     font-size: 18px;
     color: black;
+    margin: auto;
+    
+   
 }
+
 
 .button-style button {
     border-radius: 6px;
@@ -77,46 +84,57 @@ body {
 }
 .slider ul {
     display: flex;
-    gap: 8px;
+    gap: 15px;
     color: #4CAF4F;
+    justify-content: center;
+    font-size: 20px;
+    list-style-type: disc;
     
+
 }
-.txt-contain h2 {
-    font-size: 36px;
-    font-weight: 600;
+.txt-containt h2{
+    font-weight: bold;
+    font-size: 30 !important;
     text-align: center;
-    padding: 30px 0 0 0;
-    color: #4D4D4D;
+    padding:30px 0 0 0 ;
+    color: #18191F;
 }
-.txt-contain p {
+.txt-containt p{
     font-size: 18;
     text-align: center;
     color: #18191F;
-
 }
+.img-txt-design {
+    padding: 30px 50px;
+}
+.img-txt-design img{
+    display: block;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-txt-design h2 {
+    color: #4D4D4D;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+    
+.img-txt-design p{
+    color: #717171;
+    font-size: 16px;
+    text-align: center;
+}
+
 .logo2 img {
 display: inline-block;
 padding: 50px;
 }
-.card {
-    border-color: #fff;
-    box-shadow: #ABBED1;
+.logo2 {
+    text-align: center;
 }
-.card img {
-    width: 65px;
-    height: 56px;
-}
-.card body h5 {
-    color: #4D4D4D; 
-    font-size: 28px;
-    font-weight: bold;
-}
-.card body p {
-    font-size: 14px;
-    font-weight: 400;
-    color: #717171;
-    ;
-}
+
 .image {
     background-color: #fff;
     padding: 50px;
@@ -125,11 +143,19 @@ padding: 50px;
 .image h2 {
     font-size: 36px;
     font-weight: 600;
-    color: #4D4D4D;
+    
+}
+.image h3 {
+    color: #4CAF4F;
+    font-weight: bold;
 }
 .image p {
     color: #717171;
     font-size: 14px;
+    padding: 10px;
+}
+.image button {
+    border: none;
 }
 .item logo {
     display: flex;
@@ -184,12 +210,41 @@ h4 {
     list-style: none;
     font-size: 14px;
     padding: 0;
+    color: white;
 }
 .foot-element ul li a {
     color: #F5F7FA;
     padding: 0;
-    border: none;
+   
+    
 }
+.img-position {
+    position: relative;
+}
+.img-position h4 {
+    position: absolute;
+    font-size: 14px;
+    width: 50%;
+    color:#717171;
+    background-color: #F5F7FA;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 20px;
+    text-align: center;
+    border-radius:8px;
+}
+.img-position img {
+    width: 100%;
+}
+.email-input input{
+    margin: 20px 0;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border:none;
+}
+
 
 
 
@@ -205,19 +260,20 @@ Login page css
     margin: 0;
     
     
+    
 } 
 .login-page form {
     width: 50%;
     margin: auto;
-
-    
    
-
 }
+ 
+
 .login-page .login-img img {
     width: 100%;
 
 }
+
 .login-head {
     font-size: 24px;
     font-weight: 600;
@@ -265,8 +321,29 @@ Login page css
     font-weight: 700;
     color: #000 !important;
     margin: 5px !important;
-    
-    
 
+}
+.form-head{
+    display: flex;
+    align-content: center;
+}
 
+.form-head input[type="password"] {
+    position: relative;
+}
+
+.login-page  form .fa-eye {
+    position: absolute;
+    top: 81%;
+    left: 32%;
+    
+}
+
+.img-logo2{
+    text-align: center;
+
+}
+.img-logo2 img{
+    display:inline-block;
+    padding: 50px 50px;
 }
