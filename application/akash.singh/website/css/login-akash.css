@@ -19,19 +19,20 @@ body{
 
 .navbar-div {
     background-color: #F5F7FA;
-    padding: 36px 50px;
+    padding: 20px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 5px 10px #888;
+    box-shadow: 5px 1px #c4c2c2;
 }main{
     padding: 15px,30px
 }
 
 .main ul{
     list-style: none;
+    margin: auto;
     display: flex;
-    gap: 20px
+    gap: 50px
 }
 a{
     color: #000000;
@@ -113,8 +114,8 @@ a{
     border-color: rgb(0, 0, 0);
     font-size: 16px;
     font-weight: 700px;
-    margin: 30px;
-    margin-left: 6px;
+    margin: 20px;
+    
 }
 
 .login-sec form button{
@@ -126,16 +127,17 @@ a{
     border: 1px solid #F5F7FA ;
     font-size: 16px;
     font-weight: 700px;
-    margin: 30px; 
-    margin-left: 6px;
+    margin: 20px; 
 }   
- .login-sec form p {
-        font-size: 14px;
+ .login-sec form a  {
+        font-size: 15px;
         font-weight: 400;
-        color: #1b52d2;
-        margin: 30px 7px;
+        margin: 20px 7px;
+        color: blue;
     }  
 
     
     
-     
+     .login-sec input{
+        padding: 30px;
+     }
