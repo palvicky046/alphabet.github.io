@@ -141,3 +141,14 @@ a{
      .login-sec input{
         padding: 30px;
      }
+
+     /*home page*/
+
+.card-text{
+        text-align: center ;
+}
+
+.logo{
+    padding: auto;
+    display: flex;
+    justify-content: space-around}
