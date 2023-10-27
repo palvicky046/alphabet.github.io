@@ -149,6 +149,15 @@ a{
 }
 
 .logo{
-    padding: auto;
+    padding: 50px 50px;
     display: flex;
-    justify-content: space-around}
+    justify-content: space-around;
+}
+
+.card-header{
+    text-align: center;
+}
+
+.card-body{
+    text-align: center;
+}
