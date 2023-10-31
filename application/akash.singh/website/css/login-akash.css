@@ -19,18 +19,20 @@ body{
 
 .navbar-div {
     background-color: #F5F7FA;
-    padding: 36px 50px;
+    padding: 20px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 5px 1px #c4c2c2;
 }main{
     padding: 15px,30px
 }
 
 .main ul{
     list-style: none;
+    margin: auto;
     display: flex;
-    gap: 20px
+    gap: 50px
 }
 a{
     color: #000000;
@@ -81,3 +83,81 @@ a{
  form h2{
     text-align: center;
  }
+
+ form{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+ }
+ 
+.login-sec{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-img{
+    padding: 50px;
+}
+.login-img img {
+    width: 100%;
+}
+
+.login-sec form input{
+    width: auto;
+    padding: auto;
+    width: 326px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 700px;
+    margin: 20px;
+    
+}
+
+.login-sec form button{
+    width: 326px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #d90808;
+    color: aliceblue;
+    border: 1px solid #F5F7FA ;
+    font-size: 16px;
+    font-weight: 700px;
+    margin: 20px; 
+}   
+ .login-sec form a  {
+        font-size: 15px;
+        font-weight: 400;
+        margin: 20px 7px;
+        color: blue;
+    }  
+
+    
+    
+     .login-sec input{
+        padding: 30px;
+     }
+
+     /*home page*/
+
+.card-text{
+        text-align: center ;
+}
+
+.logo{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-header{
+    text-align: center;
+}
+
+.card-body{
+    text-align: center;
+}
