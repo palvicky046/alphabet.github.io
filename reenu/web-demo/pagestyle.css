@@ -360,10 +360,135 @@ width: 24px;
     box-shadow: none;
     border: 1px solid #D0D0D0;
 }
+
+.login-g-button img {
+    width: 10%;
+    height: 10%;
+}
 .txt-forget a{
     color: #0098EA;
 }
 .form-design h2{
      font-weight: bold;
 }
+.signup-form h3{
+    color: black;
+    font-weight: bold;
+}
+
+.signup-form-design input{
+    padding: 5px;
+    margin: 0px 0px 25px 0px;
+    border-radius: 4px;
+    border: 1px solid #D0D0D0;
+    background-color:#EFF0F2;
     
+}
+.signup-txt label{
+    font-size: 18px;
+    color: #4D5959;
+    font-family: 'poppins';
+}
+
+.signup-create-btn button{
+    padding: 5px 20px;
+    margin: 15px 0px;
+    border-radius: 4px;
+    background-color: #007074;
+    color: white;
+    border: none;
+    font-family: 'poppins';
+    text-align: center;
+}
+
+.signup-actn-link h4 {
+    text-align: center;
+    color: #000000 !important;
+}
+
+.signup-form h1{
+    font-size: 26px;
+    text-align: center;
+}
+.signup-actn-link a{
+    color: #007074;
+}
+
+.button-img img{
+    width:25px;
+    height:25px;
+}
+
+.signup-form-design form{
+    width: 70%;
+    padding: 100px 0px;
+    margin: auto;
+}
+.signup-form input{
+    width:100%;
+}
+.signup-img img{
+    width: 658px;
+    height: 1024px;
+}
+
+.product-font{
+    background-color: #F4F5F8;
+    padding: 30px;
+    text-align: center;
+}
+.font-desgn1{
+    color: #191919;
+    font-weight: lighter;
+}
+
+.product-font{
+    position: relative;
+}
+.product-cart img{
+    position: absolute;
+    top: 23%;
+    right: 4%;
+}
+.img-product-cart {
+    background-color: #F1F1F1;
+}
+
+.Rectangle-img img{
+    position: relative;
+}
+
+.img-icon img,h3,h5{
+    
+   
+}
+.small-tv-product img{
+    padding: 0px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.large-led-pd {
+    background-color:#F1F1F1;
+    width: 613px;
+    height: 407px;
+    text-align: center;
+    margin: 0;
+}
+
+.signup-login-btn button{
+    padding: 7px 20px;
+    border: 1px solid #D2D2D2;
+    border-radius: 4px;
+    background-color: white;
+   
+}
+.signup-login-btn{
+    display: flex;
+    gap: 30px;
+    align-items: stretch;
+    justify-content: center;
+}
+.signup-create-btn {
+    text-align: center;
+    padding: 10px;
+}
