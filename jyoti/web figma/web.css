@@ -5,6 +5,7 @@
 body {
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
+    
 }
 .common-padding {
     padding: 0 50px;
@@ -377,8 +378,8 @@ Login page css
 
 .login-page  form .fa-eye {
     position: absolute;
-    top: 81%;
-    left: 32%;
+    top: 82%;
+    left: 33%;
     
 }
 
