@@ -467,7 +467,7 @@ width: 24px;
     display: flex;
     flex-wrap: wrap;
 }
-.large-led-pd {
+.large-led-pd img{
     background-color:#F1F1F1;
     width: 613px;
     height: 407px;
@@ -491,4 +491,17 @@ width: 24px;
 .signup-create-btn {
     text-align: center;
     padding: 10px;
+} 
+.product-cart h5{
+    font-size: 15px;
+    padding: 0px 120px;
+}
+.product-cart h3{
+    font-size: 20px;
+    padding: 0px 120px;
+    font-family: 'inter';
+    font-weight: bold;
+}
+.reviews-star-img img{
+    
 }
