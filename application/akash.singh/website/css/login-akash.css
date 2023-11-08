@@ -149,8 +149,3 @@ img.card-img-top{
 }
  
 
-.col-lg-4 {
-display: flex;
-padding: 50px;
-justify-content: space-around;
-}
