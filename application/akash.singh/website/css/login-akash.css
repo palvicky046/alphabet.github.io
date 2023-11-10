@@ -10,7 +10,7 @@ body{
 }
 
 .common-padding{
-    padding: 0%, 50px;
+    padding: 0px, 50px;
 }
 
 .logo img {
@@ -23,11 +23,16 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.collapse.navbar-collapse{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
 .button-style{
     display: flex;
     gap: 20px;
 }
-.login-botton button{
+.btn btn-success{
     border: none;
     background-color:#F5F7FA;
     color: #4CAF4F;
