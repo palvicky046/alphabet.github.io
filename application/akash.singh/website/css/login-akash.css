@@ -10,7 +10,7 @@ body{
 }
 
 .common-padding{
-    padding: 0%, 50px;
+    padding: 0px, 50px;
 }
 
 .logo img {
@@ -22,35 +22,21 @@ body{
     padding: 20px 50px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    box-shadow: 5px 1px #c4c2c2;
-}main{
-    padding: 15px,30px
 }
-
-.main ul{
-    list-style: none;
-    margin: auto;
+.collapse.navbar-collapse{
     display: flex;
-    gap: 50px
-}
-a{
-    color: #000000;
-    text-decoration:none;
+    justify-content: space-around;
+    text-align: center;
 }
 .button-style{
     display: flex;
     gap: 20px;
 }
-.login-botton button{
+.btn btn-success{
     border: none;
     background-color:#F5F7FA;
     color: #4CAF4F;
     padding: 10px 15px;
-    font-size: 16px;
-}
-.button-signup button {
-    border-radius: 4px;
     background-color: #4CAF4F;
     color: white;
     padding: 10px 15px;
@@ -161,3 +147,10 @@ a{
 .card-body{
     text-align: center;
 }
+
+img.card-img-top{
+    width: 50px;
+    margin: auto
+}
+ 
+
