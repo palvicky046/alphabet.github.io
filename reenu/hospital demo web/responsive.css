@@ -1,0 +1,124 @@
+@media only screen and (max-width: 767px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+.med-logo{
+    opacity: 0;
+}
+.smallshow {
+    display: block;
+}
+.carousel-item img{
+height: 250px;
+}
+.med-icon h3 p{
+    font-size: 14px;
+    font-weight: 500;    
+}
+.carousel-item{
+    position: relative;
+}
+.slider-caption {
+    position: absolute;
+    width: 50%;
+    top: -3%;
+    left: 75%;
+    transform: translate(-100%, 11%);
+}
+
+.slider-caption button {
+    border-radius: 50px;
+    padding: 5px 20px;
+    background-color: #BFD2F8;
+    color: #1F2B6C;
+    border: none;
+    font-size: 16px;
+}
+
+.slider-caption h5,
+.work-sans {
+    color: #159EEC;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+}
+
+.slider-caption p,
+.yeseva-one-regular {
+    color: #1F2B6C;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Yeseva One", serif;
+    text-align: center;
+}
+.btn-data-1{
+    display: none;
+}
+.btn-data-2{
+    display: none;
+}
+.btn-data-3{
+    display: none;
+}
+.navbar{
+    background-color:#1F2B6C;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+}
+.navbar-collapse {
+    background-color: #BFD2F8;
+}
+.navbar-nav a{
+padding: 5px 0px;
+text-align: left;
+}
+.app-btn img{
+    display: none;
+}
+/*.app-btn1 button{
+    background-color:#1F2B6C; 
+    color: #BFD2F8;
+    margin: 0px 0px 5px 0px;
+} */
+.nav-link {
+    color: #1F2B6C !important;
+}
+.smallshow {
+    display: flex;
+}
+.searchlogo{
+    margin: 0px 10px 0px 125px;
+}
+
+.navbar-collapse{
+    display: flex;
+}
+.btn1{
+    border-radius: 50px;
+    border: none;
+    padding: 5px 30px 5px 30px;
+    background-color: #1F2B6C;
+    color: #BFD2F8;
+    margin: 5px 0px 10px 0px;
+}
+.carousel-indicators {
+    top: 220px;
+}
+.doc-img img {
+    height: 250px;
+    /*margin: 15px 70px;*/
+    /* padding: 0px 10px; */
+    width: 100%;
+}
+
+
+
+}

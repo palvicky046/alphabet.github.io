@@ -1,0 +1,414 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar-collapse {
+    background-color: #1F2B6C;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav a {
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 56px;
+}
+
+.med-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.medical-logo {
+    display: none;
+}
+
+.app-btn img {
+    padding: 5px;
+}
+
+.app-btn button {
+    border-radius: 50px;
+    border: none;
+    padding: 5px 20px 5px 20px;
+    background-color: #BFD2F8;
+    color: #1F2B6C;
+}
+
+.btn1 {
+    display: none;
+}
+
+.app-btn {
+    margin: 5px 50px 5px 520px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.med-icon h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #1F2B6C;
+}
+
+.med-icon h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #159EEC;
+}
+
+.med-icon {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.med-icon img {
+    padding: 5px 5px;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.carousel-item img {
+    height: 550px;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.slider-caption {
+    position: absolute;
+    width: 50%;
+    top: 20%;
+    left: 66%;
+    transform: translate(-100%, 12%);
+    padding: 20px 20px;
+}
+
+.slider-caption button {
+    border-radius: 50px;
+    padding: 5px 20px;
+    background-color: #BFD2F8;
+    color: #1F2B6C;
+    border: none;
+}
+
+.slider-caption h5,
+.work-sans {
+    color: #159EEC;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.slider-caption p,
+.yeseva-one-regular {
+    color: #1F2B6C;
+    font-weight: 400;
+    font-size: 48px;
+    font-family: "Yeseva One", serif;
+}
+
+.smallshow {
+    display: none;
+}
+
+.btn-data img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 2px 3px 2px 25px;
+}
+
+.btn-data button {
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    margin: 5px 15px;
+}
+
+.btn-data-1 {
+    background-color: #1F2B6C;
+    color: white;
+}
+
+.btn-data-2 {
+    background-color: #BFD2F8;
+    color: #1F2B6C;
+}
+
+.btn-data-3 {
+    background-color: #159EEC;
+    color: white;
+}
+
+.btn-data {
+    position: absolute;
+    width: 70%;
+    top: 90%;
+    left: 86%;
+    transform: translate(-100%, 12%);
+}
+
+.carousel-indicators {
+    top: 450px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.med-txt {
+    text-align: center;
+}
+
+.med-txt h4 {
+    margin: 70px 0px 0px 0px;
+    color: #159EEC;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.med-txt h1,
+.yeseva-one-regular {
+    color: #1F2B6C;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Yeseva One", serif;
+}
+
+.med-txt p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+}
+
+.med-txt button {
+    border: none;
+    color: #159EEC;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.med-txt img {
+    padding: 0px 8px;
+}
+
+.doc-img img {
+    height: 250px;
+    width: 992px;
+    display: block;
+    margin: 15px auto;
+
+}
+
+.services-txt h3 {
+    color: #159EEC;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.services-txt h1,
+.yeseva-one-regular {
+    color: #1F2B6C;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.img-contain img {
+    opacity: 0.5;
+    height: 500px;
+    width: 100%;
+}
+
+.medical-checkup img {
+    height: 32px;
+    width: 32px;
+    align-content: center;
+    margin: 30px 5px 0px 50px;
+}
+
+.medical-checkup h4 {
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 2px 5px;
+}
+
+.cardio-align {
+    margin: 35px 0px 40px 0px;
+}
+
+.med-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.medical-checkup {
+    border: 1px solid #888;
+}
+
+.checkup h4 {
+    padding: 5px 6px;
+}
+
+.blood-bank h4 {
+    padding: 5px 15px 0px 16px;
+}
+
+.view-all button {
+    padding: 7px 37px 7px 38px;
+    border: 1px solid #888;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #1F2B6C;
+    color: #BFD2F8;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+}
+
+.checkup {
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: none;
+}
+
+.cardiogram {
+    border-bottom: none;
+    border-top: none;
+    background-color: #1F2B6C;
+    color: #BFD2F8;
+}
+
+.dna-testing {
+    border-bottom: none;
+    border-top: none;
+}
+
+.blood-bank {
+    border-bottom: none;
+    border-top: none;
+}
+
+.para-txt h3 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+    margin: 15px 0px 0px 0px;
+}
+
+.med-group {
+    padding: 0px 0px 0px 155px;
+}
+
+.align-list {
+    display: flex;
+}
+
+.align-list ul {
+    padding: 0px 35px;
+}
+
+.list-item li {
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.para-txt p {
+    font-family: "Work Sans", sans-serif;
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+li::marker {
+    color: #159EEC;
+    font-size: 30px;
+    padding: none;
+}
+
+.doctor-img img {
+    padding: 10px 15px;
+    height: 225px;
+    width: 258px;
+}
+
+.services-txt {
+    padding: 43px 0px;
+}
+.heart-img img{
+    height: 40px;
+    width: 40px;
+}
+.doc-speciality {
+    padding: 5px 10px ;
+}
+.heart-align {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+.img-contain{
+    padding: 20px 0px;
+    position: relative;
+}
+.heart-align h5{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+}
+.img-caption h2{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Yeseva One", serif;
+    color:#159EEC;
+    font-weight: bold;
+}
+.img-caption p{
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+}
+.img-caption{
+    position: absolute;
+    top: 30%;
+    left: 14%;
+}
+.txt-format input,select{
+    width:20%;
+    padding: 0px;
+    margin: 0px;
+}

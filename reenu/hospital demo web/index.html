@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hospital website</title>
+    <!--BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!--BOOTSTRAP JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="responsive.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="row">
+        <div class="med-logo col-xl-3">
+            <img src="img/medical-logo.png">
+        </div>
+        <div class="col-xl-3 med-icon">
+            <div>
+                <img src="img/call.png">
+            </div>
+            <div>
+                <h3>EMERGENCY</h3>
+                <h4>(237) 681-812-255</h4>
+            </div>
+        </div>
+        <div class="col-xl-3 med-icon">
+            <div>
+                <img src="img/time.png">
+            </div>
+            <div>
+                <h3>Work Hour</h3>
+                <h4>09:00 - 20:00 Everyday</h4>
+            </div>
+        </div>
+        <div class="col-xl-3 med-icon">
+            <div>
+                <img src="img/location.png">
+            </div>
+            <div>
+                <h3>Location</h3>
+                <h4>0123 Some Place</h4>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="smallshow">
+            <img src="img/logomed1.png">
+            <div class="searchlogo">
+                <img src="img/search.png">
+            </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Doctors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li <li>
+                <button class="btn1">Appointment</button>
+                </li>
+            </ul>
+            <div class="app-btn">
+                <img src="img/search.png">
+                <button>Appointment</button>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/slider1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/slider2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <div class="slider-caption">
+            <h5>Caring for Life</h5>
+            <p>Leading the Way <br>in Medical Excellence</p>
+            <button>Our Services</button>
+        </div>
+        <div class="btn-data">
+            <button class="btn-data-1">Book an Appointment<img src="img/Calendar.png"></button>
+            <button class="btn-data-2">Book an Appointment<img src="img/team.png"></button>
+            <button class="btn-data-3">Book an Appointment<img src="img/cash.png"></button>
+        </div>
+    </div>
+
+
+    <div class="row med-txt">
+        <h4>Welcome to Meddical</h4>
+        <h1>A Great Place to Receive Care</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat<br> scelerisque tortor ornare
+            ornare. Convallis felis vitae tortor augue. Velit nascetur<br> proin massa in. Consequat faucibus porttitor
+            enim et.</p>
+        <button>Learn More<img src="img/arrow.png"></button>
+    </div>
+    <div class="doc-img">
+        <img src="img/group-doc.png">
+    </div>
+    <div class="services-txt">
+        <h3>Care you can believe in</h3>
+        <h1>Our Services</h1>
+    </div>
+
+
+    <div class="row cardio-align">
+        <div class="col-xl-4 med-group">
+            <div class="checkup medical-checkup">
+                <img src="img/checkup.png">
+                <h4>Free Checkup</h4>
+            </div>
+            <div class="cardiogram medical-checkup">
+                <img src="img/cardiogram.png">
+                <h4>Cardiogram</h4>
+            </div>
+            <div class="dna-testing medical-checkup">
+                <img src="img/testing.png">
+                <h4>Cardiogram</h4>
+            </div>
+            <div class="blood-bank medical-checkup">
+                <img src="img/blood-bank.png">
+                <h4>Blood Bank</h4>
+            </div>
+            <div class="view-all">
+                <button>View All</button>
+            </div>
+        </div>
+        <div class="col-xl-4 para-txt">
+            <h3>A passion for putting patients first.</h3>
+            <div class="align-list">
+                <ul class="list-item">
+                    <li>A Passion for Healing</li>
+                    <li>All our best</li>
+                    <li>A Legacy of Excellence</li>
+                </ul>
+                <ul class="list-item">
+                    <li>5-Star Care</li>
+                    <li>Believe in Us</li>
+                    <li>Always Caring</li>
+                </ul>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare
+                ornare. Quisque placerat scelerisque tortor ornare ornare Convallis felis vitae tortor augue. Velit
+                nascetur proin massa in. Consequat faucibus porttitor enim et.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque. Convallis felis
+                vitae tortor augue. Velit nascetur proin massa in.
+            </p>
+        </div>
+        <div class="col-xl-4 doctor-img">
+            <img src="img/checking-up (1).png">
+            <img src="img/doctors.png" </div>
+        </div>
+        <div class="services-txt">
+            <h3>Always Caring</h3>
+            <h1>Our Specialties</h1>
+        </div>
+        <div class="row heart-img">
+            <div class="col-xl-3 doc-speciality">
+                <div class="heart-align">
+                    <img src="img/heart.png">
+                    <h5>Neurology</h5>
+                </div>
+                <div class="heart-align">
+                    <img src="img/heart.png">
+                    <h5>Ophthalmology</h5>
+                </div>
+                <div class="heart-align">
+                    <img src="img/heart.png">
+                    <h5>Gastroenterology</h5>
+                </div>
+            </div>
+            <div class="col-xl-3 doc-speciality">
+                <div class="heart-align">
+                    <img src="img/heart.png">
+                    <h5>Bones</h5>
+                </div>
+                <div class="heart-align">
+                    <img src="img/heart.png">
+                    <h5>Cardiovascular</h5>
+                </div>
+                <div class="heart-align">
+                    <img src="img/heart.png">
+                    <h5>Urology</h5>
+                </div>
+            </div>
+            <div class="col-xl-3 doc-speciality">
+                <div class="heart-align">
+                    <img src="img/heart.png">
+                    <h5>Oncology</h5>
+                </div>
+                <div class="heart-align">
+                    <img src="img/heart.png">
+                    <h5>Pulmonology</h5>
+                </div>
+                <div class="heart-align">
+                    <img src="img/heart.png">
+                    <h5>Dermatology</h5>
+                </div>
+            </div>
+            <div class="col-xl-3 doc-speciality">
+                <div class="heart-align">
+                    <img src="img/heart.png">
+                    <h5>Otorhinolaryngology</h5>
+                </div>
+                <div class="heart-align">
+                    <img src="img/heart.png">
+                    <h5>Renal Medicine</h5>
+                </div>
+                <div class="heart-align">
+                    <img src="img/heart.png">
+                    <h5>Gynaecology</h5>
+                </div>
+            </div>
+        </div>
+        <div class="img-contain">
+            <div>
+                <img src="img/med-img.png">
+            </div>
+            <div class="img-caption">
+                <h2>Book an Appointment</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>elit. Quisque placerat scelerisque tortor
+                    ornare<br> ornare. Convallis felis vitae tortor augue. Velit <br>nascetur proin massa in. Consequat
+                    faucibus <br>porttitor enim et.</p>
+            </div>
+            <div>
+                <form class="form-design">
+                    <div class="txt-format">
+                        <input type="text" placeholder="Name">
+                        <select name="Gender">
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Email">
+                        <input type="number" placeholder="Phone">
+                    </div>
+                    <div>
+                        <input type="Date" placeholder="Date">
+                        <input type="Time" placeholder="Time"><br>
+                    </div>
+                    <div>
+                        <select name="Doctor">
+                            <option>Select</option>
+                            <option>Neurologist</option>
+                            <option>Ophthalmology</option>
+                            <option>Psychiatrist</option>
+                            <option>Radiologist</option>
+                        </select>
+                        <select name="Department">
+                            <option>Select</option>
+                            <option>Outpatient department (OPD)</option>
+                            <option>Surgical department</option>
+                            <option>Inpatient service</option>
+                            <option>Nursing department</option>
+                            <option>Physical medicine</option>
+                            <option>Paramedical department</option>
+                            <option>Operation theater complex (OT)</option>
+                        </select>
+                    </div>
+                    <textarea type="text">Message</textarea>
+                </form>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
