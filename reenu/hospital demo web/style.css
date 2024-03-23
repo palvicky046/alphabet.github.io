@@ -246,7 +246,18 @@ body {
   height: 500px;
   width: 100%;
 }
-
+.medical-checkup{
+    transition: background-color 0.5s ease-in-out;
+}
+.medical-checkup img:hover{
+    mix-blend-mode: plus-lighter;
+}
+.medical-checkup h4:hover{
+    color: #bfd2f8;;
+}
+.medical-checkup:hover{
+    background-color: #1F2B6C;
+}
 .medical-checkup img {
   height: 32px;
   width: 32px;
@@ -304,8 +315,6 @@ body {
 .cardiogram {
   border-bottom: none;
   border-top: none;
-  background-color: #1f2b6c;
-  color: #bfd2f8;
 }
 
 .dna-testing {
@@ -366,17 +375,33 @@ li::marker {
 .heart-img img {
   height: 40px;
   width: 40px;
+  align-items: center;
 }
-
-.doc-speciality {
-  padding: 5px 10px;
-}
-
 .heart-align {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 10px 0px;
+  border: 0.15px solid #00000030;
+  transition: background-color 0.5s ease-in-out;
+  
+}
+.heart-align:hover{
+    background-color: #1F2B6C;
+    border-radius: 0.5px;
+}
+.heart-align img:hover img{
+    mix-blend-mode: plus-lighter;
+}
+.heart-align:hover h5{
+    color: #ffffff;
+}
+.heart-img{
+margin: 10px 270px;
+padding: 10px;
+}
+.doc-speciality{
+    padding: 0px;
 }
 
 .img-contain {
@@ -481,4 +506,92 @@ input[type=number]::-webkit-outer-spin-button {
     -moz-appearance: none;
     appearance: none;
     margin: 0; 
+}
+.card-details{
+    border: none;
+    flex-direction: column;
+    background-color: #BFD2F8;
+    padding: 0px;
+}
+
+.card-title h6{
+    font-size: 18px;
+    font-weight: 400;
+    color: #1F2B6C;
+}
+.card-title h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #1F2B6C;
+    letter-spacing: 3px;
+}
+.card-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.social-icon {
+    display: flex;
+    padding: 5px;
+}
+.social-icon img{
+    padding: 5px;
+}
+.btn-profile button{
+    width: 100%;
+    background-color:#1f2b6c;
+    font-size: 16px;
+    font-weight: 400;
+    color: #BFD2F8;
+    padding: 7px;
+    border: none;
+    border-radius: 0px 0px 5px 5px;
+}
+.card-layout{
+    margin: 0% 10%;
+}
+.card-details{
+ margin: 10px;
+}
+.carousel-indicators-med{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-indicators-med button{
+    gap: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #BFD2F8;
+    margin: 5px;
+}
+.carousel-indicators-med button:hover{
+    background-color: #1F2B6C;
+}
+.carousel-indicators-med [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    text-indent: -999px;
+    cursor: pointer;
+    border: 0;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.news-txt h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+    color: #159EEC;
+    letter-spacing: 2px;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+.news-txt h1{
+    font-size: 38px;
+    font-weight: bold;
+    color: #1F2B6C;
+    font-family: "Yeseva One", serif;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
 }
